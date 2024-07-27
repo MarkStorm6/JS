@@ -1,0 +1,337 @@
+body {
+  background-image: linear-gradient(to bottom right, hsl(0, 0%, 80%), #d3d1d1);
+  scrollbar-width: thin;
+  overflow-x: hidden; 
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+
+}
+
+::-webkit-scrollbar {
+  display: none; 
+}
+
+
+.tittle{
+  position: relative;
+  left:20px;
+  font-weight: bold;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  top: 10px;
+  text-shadow: 0 5px 7px rgba(0, 0, 0, 0.2); 
+}
+
+
+.date-body{
+  position: relative;
+  width: 40%;
+  left: 20px;
+}
+
+
+
+.inputUser span{
+  background-image: linear-gradient(to bottom right, #e17272, #cc5d91);
+  color: #f8f9fa;
+  text-shadow: 0 5px 7px rgba(0, 0, 0, 0.2);
+  border: 2px solid transparent;
+  border-image: linear-gradient(to bottom right, #e17272, #cc5d91) 1;
+}
+
+.inputTelf span{
+  background-image: linear-gradient(to bottom right, #aae771, #54d8d4);
+  color: #f8f9fa;
+  text-shadow: 0 5px 7px rgba(0, 0, 0, 0.2);
+  border: 2px solid transparent;
+  border-image: linear-gradient(to bottom right, #aae771, #54d8d4) 1;
+}
+
+.inputDni span{
+  background-image: linear-gradient(to bottom right, #6ef3f1, #54d8d4);
+  color: #f8f9fa;
+  text-shadow: 0 5px 7px rgba(0, 0, 0, 0.2);
+  border: 2px solid transparent;
+  border-image: linear-gradient(to bottom right, #6ef3f1, #54d8d4) 1;
+}
+
+.inputUbi span{
+  background-image: linear-gradient(to bottom right, #e3e771, #d89f54);
+  color: #f8f9fa;
+  text-shadow: 0 5px 7px rgba(0, 0, 0, 0.2);
+  border: 2px solid transparent;
+  border-image: linear-gradient(to bottom right, #e3e771, #d89f54) 1;
+}
+
+input{
+  width: 380px;
+  height: 45px;
+  padding: 12px;
+  border-radius: 12px;
+  border: 1.5px solid lightgrey;
+  outline: none;
+  transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+  box-shadow: 0px 0px 20px -18px;
+}
+
+input:hover {
+  border: 2px solid rgb(153, 151, 151);
+  box-shadow: 0px 0px 20px -17px;
+}
+
+input:active {
+  transform: scale(0.95);
+  border: 2px solid grey;
+
+}
+
+input:focus {
+  border: 2px solid grey;
+}
+
+
+
+.custom-select select {
+  position: relative;
+  left: 3px;
+  width: 200px;
+  padding: 10px;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  text-shadow: 0 5px 7px rgba(0, 0, 0, 0.2);
+  background-color: #7070df;
+  color: #ffffff;
+  font-weight: bold;
+  transition: 0.5s ease;
+  appearance: none;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0);
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.custom-select select:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.custom-select select:hover{
+  background-color: #4848a1;
+  transform: scale(1.1);
+}
+
+.custom-select select:active{
+  transform: scale(0.9);
+}
+
+
+
+.custom-select-distrito select {
+  position: relative;
+  left: 3px;
+  width: 200px;
+  padding: 10px;
+  font-size: 14px;
+  border: none;
+  text-shadow: 0 5px 7px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  background-color: #588f62;
+  color: #ffffff;
+  font-weight: bold;
+  transition: 0.5s ease;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0);
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.custom-select-distrito select:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.custom-select-distrito select:hover{
+  background-color: #2e5031;
+  transform: scale(1.1);
+}
+
+.custom-select-distrito select:active{
+  transform: scale(0.9);
+}
+
+
+
+.custom-select-ciu select {
+  position: relative;
+  left: 3px;
+  width: 200px;
+  padding: 10px;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  text-shadow: 0 5px 7px rgba(0, 0, 0, 0.2);
+  background-color: #b9c551;
+  color: #ffffff;
+  font-weight: bold;
+  transition: 0.5s ease;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0);
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.custom-select-ciu select:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.custom-select-ciu select:hover{
+  background-color: #778332;
+  transform: scale(1.1);
+}
+
+.custom-select-ciu select:active{
+  transform: scale(0.9);
+}
+
+
+.btn-a{
+  position: relative;
+  left: 290px;
+  bottom: 160px;
+  border: none;
+  border-radius: 10px;
+  width: 130px;
+  height: 40px;
+  background: #8fbeef;
+  text-shadow: 0 5px 7px rgba(0, 0, 0, 0.2);
+  color: #ffffff;
+  font-weight: bold;
+  transition: 0.4s ease;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0);
+}
+
+.btn-a:hover{
+  background-color: #6380a0;
+  transform: scale(1.1);
+}
+
+.btn-a:active{
+  transform: scale(0.9);
+}
+
+.btn-b{
+  position: relative;
+  left: 155px;
+  bottom: 100px;
+  border: none;
+  border-radius: 10px;
+  width: 130px;
+  height: 40px;
+  background: #bb5777;
+  text-shadow: 0 5px 7px rgba(0, 0, 0, 0.2);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0);
+  color: #ffffff;
+  font-weight: bold;
+  transition: 0.4s ease;
+}
+
+.btn-b:hover{
+  background-color: #723649;
+  transform: scale(1.1);
+}
+
+.btn-b:active{
+  transform: scale(0.9);
+}
+
+
+.table-datos{
+  position: relative;
+  width: 1012px;
+  left: 32%;
+  bottom: 530px;
+  
+}
+
+tr{
+  font-size: 15px;
+}
+
+
+.btn.borrar-dato {
+  background-color: rgb(223, 67, 67);
+  color: white;
+  border: none;
+  font-size: 13px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.4s ease;
+}
+
+.btn.borrar-dato:hover {
+  background-color: rgb(139, 42, 42);
+  transform: scale(1.1);
+}
+
+
+.mi-modal .modal-content {
+    background-color: #f8f9fa; 
+  border-radius: 10px; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border: none;
+  }
+  
+  .mi-modal .modal-header {
+    background-color: #f15454; 
+  color: #fff;
+  
+  }
+
+  .mi-modal .modal-header h5{
+    font-weight: bold;
+  }
+  
+  .mi-modal .modal-body {
+    background-color: #fff;
+    border-radius: 10px;
+  }
+  
+  .mi-modal .modal-footer {
+    background-color: #f8f9fa;
+  }
+
+
+@keyframes aparecerModal {
+    from {
+      opacity: 0;
+      transform: translateY(-50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .mi-modal {
+    animation: aparecerModal 0.3s ease-out forwards; 
+  }
+
+  .btn-cl {
+    background:none; 
+    color: white; 
+    border: none; 
+    padding: 5px;
+    position: relative;
+    left: 330px;
+    cursor: pointer; 
+    transition: 0.4s ease;
+    font-size: 20px;
+  }
+  
+  .btn-cl:hover {
+    color: #d6d5d5;
+    transform: scale(1.1);
+  }
+
+ 

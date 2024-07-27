@@ -1,0 +1,371 @@
+.container{
+    display: flex;
+    position: relative;
+    top: 50px;
+    right: 70px;
+    width: 100%;
+}
+
+.container .card{
+    margin-right: 10px;
+}
+
+.btn-cantidad{
+    display: flex;
+    z-index: 1;
+}
+
+.btn-cantidad input{
+    width: 25px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.btn-cantidad button{
+    margin-left: 10px;
+}
+
+.btn-comprar{
+  position: relative;
+  left: 45px;
+  background: #acd474;
+  color: aliceblue;
+  border: none;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+
+.btn-comprar:hover{
+  background: #56693c;
+  transform: scale(0.9);
+}
+
+
+.carousel-container {
+    overflow-x: auto;
+  }
+  
+  .carousel {
+    display: flex;
+    scroll-behavior: smooth;
+
+  }
+  
+  .adidascard,
+  .adidasstr,
+  .conversecard,
+  .nikemilescard,
+  .northstarcard,
+  .vanscard {
+    flex: 0 0 auto;
+    width: 18rem;
+    padding: 1rem;
+    margin-left: 20px;
+  }
+
+
+/*adidas stan smith*/
+  .adidascard .btn-cantidad{
+    position: relative;
+    left: 65px;
+  }
+
+  .adidascard .btn-cantidad button{
+    background:  #006633;
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    transition: 0.3s ease;
+  }
+
+  .adidascard .btn-cantidad button:hover{
+    background:  #004322;
+    transform: scale(0.9);
+  }
+
+  .adidascard .btn-cantidad input{
+    border: none;
+    background: rgb(240, 240, 240);
+    border-radius: 5px;
+    color: rgb(135, 135, 135);
+  }
+
+.talla-btn1 button{
+    position: relative;
+    left: 10px;
+    background:  #006633;
+    color: aliceblue;
+}
+
+.talla-btn1 button:hover{
+    background: #004121;
+    color: aliceblue;
+}
+
+.talla-btn1 p{
+    position: relative;
+    left: 10px;
+    color: #01944a;
+}
+
+.adidascard h5{
+    font-weight: bold;
+    color:  #006633;
+}
+
+.adidascard p{
+    color:  #006633;
+}
+
+/*---------------------------------------*/
+
+
+
+/*adidas super star*/
+.adidasstr h5{
+    font-weight: bold;
+}
+
+.adidasstr p{
+    color: #a68e07;
+}
+
+.adidasstr .btn-cantidad{
+    position: relative;
+    left: 65px;
+}
+
+.adidasstr .btn-cantidad button{
+    background:  #000000;
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    transition: 0.3s ease;
+  }
+
+  .adidasstr .btn-cantidad button:hover{
+    background:  #373737;
+    transform: scale(0.9);
+  }
+
+.adidasstr .talla-btn2{
+    position: relative;
+    left: 10px;
+}
+
+.adidasstr .talla-btn2 button{
+    background: rgb(0, 0, 0);
+    color: aliceblue;
+}
+
+.adidasstr .talla-btn2 button:hover{
+    background: #303030;
+}
+
+.adidasstr .btn-cantidad input{
+    border: none;
+    background: rgb(240, 240, 240);
+    border-radius: 5px;
+    color: rgb(135, 135, 135);
+}
+/*-----------------------------------------------------*/
+
+
+/*converse*/
+
+.conversecard h5{
+  font-weight: bold;
+  color: #9e0303;
+}
+
+.conversecard p{
+  color: #3a3a3a;
+}
+
+.conversecard .btn-cantidad button{
+  background: #000000;
+  border: none;
+  border-radius: 5px;
+  color: aliceblue;
+  transition: 0.3s ease;
+}
+
+.conversecard .btn-cantidad button:hover{
+  background: #2e2e2e;
+  transform: scale(0.9);
+}
+
+.conversecard .talla-btn3 button{
+  background: #9e0303;
+  border: none;
+  color: aliceblue;
+}
+
+.conversecard .talla-btn3 button:hover{
+  background: #661b1b;
+  color: aliceblue;
+}
+
+
+.conversecard .btn-cantidad input{
+  border: none;
+  background: rgb(240, 240, 240);
+  border-radius: 5px;
+  color: rgb(135, 135, 135);
+}
+
+.conversecard .btn-cantidad{
+  position: relative;
+  left: 65px;
+}
+
+/*---------------------------------------------*/
+
+
+/*jordan miles*/
+
+.nikemilescard h5{
+  font-weight: bold;
+  color: #000000;
+}
+
+.nikemilescard p{
+  color: #9e0303;
+}
+
+.nikemilescard .btn-cantidad button{
+  background: #9e0303;
+  border: none;
+  border-radius: 5px;
+  color: aliceblue;
+  transition: 0.3s ease;
+}
+
+.nikemilescard .btn-cantidad button:hover{
+  background: #6f0505;
+  transform: scale(0.9);
+}
+
+.nikemilescard .talla-btn4 button{
+  background: #9e0303;
+  border: none;
+  color: aliceblue;
+}
+
+.nikemilescard .talla-btn4 button:hover{
+  background: #661b1b;
+  color: aliceblue;
+}
+
+
+.nikemilescard .btn-cantidad input{
+  border: none;
+  background: rgb(240, 240, 240);
+  border-radius: 5px;
+  color: rgb(135, 135, 135);
+}
+
+.nikemilescard .btn-cantidad{
+  position: relative;
+  left: 65px;
+}
+
+/*------------------------------------------*/
+
+/*north star*/
+
+.northstarcard h5{
+  font-weight: bold;
+  color: #c05f0a;
+}
+
+.northstarcard p{
+  color: #000000;
+}
+
+.northstarcard .btn-cantidad button{
+  background: #000000;
+  border: none;
+  border-radius: 5px;
+  color: aliceblue;
+  transition: 0.3s ease;
+}
+
+.northstarcard .btn-cantidad button:hover{
+  background: #313131;
+  transform: scale(0.9);
+}
+
+.northstarcard .talla-btn5 button{
+  background: #c05f0a;
+  border: none;
+  color: aliceblue;
+}
+
+.northstarcard .talla-btn5 button:hover{
+  background: #c05f0a;
+  color: aliceblue;
+}
+
+
+.northstarcard .btn-cantidad input{
+  border: none;
+  background: rgb(240, 240, 240);
+  border-radius: 5px;
+  color: rgb(135, 135, 135);
+}
+
+.northstarcard .btn-cantidad{
+  position: relative;
+  left: 65px;
+}
+
+/*----------------------------------------*/
+
+.vanscard h5{
+  font-weight: bold;
+  color: #000000;
+}
+
+.vanscard p{
+  color: #000000;
+}
+
+.vanscard .btn-cantidad button{
+  background: #000000;
+  border: none;
+  border-radius: 5px;
+  color: aliceblue;
+  transition: 0.3s ease;
+}
+
+.vanscard .btn-cantidad button:hover{
+  background: #313131;
+  transform: scale(0.9);
+}
+
+.vanscard .talla-btn6 button{
+  background: #000000;
+  border: none;
+  color: aliceblue;
+}
+
+.vanscard .talla-btn6 button:hover{
+  background: #2e2e2e;
+  color: aliceblue;
+}
+
+
+.vanscard .btn-cantidad input{
+  border: none;
+  background: rgb(240, 240, 240);
+  border-radius: 5px;
+  color: rgb(135, 135, 135);
+}
+
+.vanscard .btn-cantidad{
+  position: relative;
+  left: 65px;
+}
+
+/*------------------------------------*/

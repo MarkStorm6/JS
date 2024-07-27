@@ -1,0 +1,154 @@
+body{
+    background-color: #181818;
+    background-image: url(/fondo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.tittle{
+    color: #48e750;
+    position: relative;
+    top: 50px;
+    left: 70px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.card .card-header{
+    background: #292929;
+    color: rgb(66, 220, 69);
+    font-weight: bold;
+    text-align: center;
+    width: 600px;
+}
+
+.card{
+    position: relative;
+    left: 500px;
+    bottom: 370px;
+    width: 601.5px;
+}
+
+.card .card-body{
+    background: #181818;
+    color: rgb(66, 220, 69);
+    height: 450px;
+    width: 600px;
+    font-size: 18px;
+    
+}
+
+.form {
+    --width-of-input: 200px;
+    --border-height: 1px;
+    --border-before-color: rgba(221, 221, 221, 0.39);
+    --border-after-color: rgb(66, 220, 69);
+    --input-hovered-color: #49e0531f;
+    position: relative;
+    width: var(--width-of-input);
+    left: 80px;
+    top: 110px;
+    margin-bottom: 14px;
+   }
+   /* styling of Input */
+   .input {
+    color: #48e750;
+    font-size: 0.9rem;
+    background-color: transparent;
+    width: 130%;
+    box-sizing: border-box;
+    padding-inline: 0.5em;
+    padding-block: 0.7em;
+    border: none;
+    border-bottom: var(--border-height) solid var(--border-before-color);
+   }
+
+   .input-border {
+    position: absolute;
+    background: var(--border-after-color);
+    width: 0%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    transition: 0.3s;
+   }
+
+   input:hover {
+    background: var(--input-hovered-color);
+   }
+   
+   input:focus {
+    outline: none;
+   }
+
+   input:focus ~ .input-border {
+    width: 130%;
+   }
+  
+
+   .boleta-descuentos{
+    position: relative;
+    left: 340px;
+    bottom: 310px;
+   }
+
+   .boleta-datos{
+    width: 300px;
+   }
+
+
+
+   .rainbow-hover {
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: rgb(61, 184, 63);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 12px 24px;
+    position: relative;
+    top: 100px;
+    left: 80px;
+    line-height: 24px;
+    border-radius: 5px;
+    transition: 0.4s ease;
+  }
+  
+  
+  .rainbow-hover:active {
+    transform: scale(0.9);
+  }
+
+  .rainbow-hover:hover{
+    background-color: #2c6430;
+    transform: scale(1.1);
+  }
+
+
+  .rainbow-hover-two {
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: rgb(38, 106, 39);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 12px 24px;
+    position: relative;
+    top: 180px;
+    left: 770px;
+    line-height: 24px;
+    border-radius: 5px;
+    transition: 0.4s ease;
+    z-index: 1;
+  }
+  
+  
+  .rainbow-hover-two:active {
+    transform: scale(0.9);
+  }
+
+  .rainbow-hover-two:hover{
+    background-color: #102c11;
+    transform: scale(1.1);
+  }
